@@ -1,326 +1,274 @@
-{
-  "macroetapas": [
-    {
-      "id": 1,
-      "descricao": "Termo de Formalização",
-      "status": "nao-concluido",
-      "atual": true,
-      "microetapas": []
+ {
+    "visaoGeral": {
+      "UnidadesInstaladas": 86,
+      "potenciaoTotalInstalada": 530,
+      "potenciaInstantanea": 43.63,
+      "energiaTotal": 561750,
+      "arvoresCultivadas": 310
     },
-    {
-      "id": 2,
-      "descricao": "Cadastro",
-      "status": "sem-acesso",
-      "atual": false,
-      "microetapas": [
+    "portfolio": [
+      [
         {
-          "id_tramite": 1,
-          "descricao": "Cadastro do Edital",
-          "status": "concluido"
-        },
+          "configuracaoUnidade": {
+            "dataInstalacao": "2019-12-23 00:00:00",
+            "kwp": "40.800"
+          },
+          "descricao": "Usina SolarView",
+          "unidadeId": "100",
+          "localizacao": {
+            "cidade": "Belo Horizonte",
+            "pais": "Brasil",
+            "latitude": "-19.04200",
+            "longitude": "-43.41770",
+            "cep": "31310240",
+            "regiao": "MG",
+            "endereco1": "Rua Conceicao do Mato Dentro",
+            "endereco2": "245 SolarView"
+          },
+          "nomeUnidade": "UFV CENTRO EMPRESARIAL",
+          "status": "Operação normal",
+          "periodoStatus": "7 dias",
+          "fotoUnidade": "https://image.flaticon.com/icons/png/512/25/25076.png",
+          "nomeIntegrador": "Energia Solar Construnorte",
+          "nomeProprietario": "Loteamento Residêncial",
+          "nomeIntegrador": "Energia Solar Construnorte",
+          "nomeProprietario": "Loteamento Residêncial"
+        }
+      ],
+      [
         {
-          "id_tramite": 2,
-          "descricao": "Publicação",
-          "status": "concluido"
+          "configuracaoUnidade": {
+            "instalacao": "2019-02-23 00:00:00",
+            "kwp": "23.560"
+          },
+          "descricao": "Usina SolarView",
+          "unidadeId": "101",
+          "localizacao": {
+            "cidade": "Belo Horizonte",
+            "pais": "Brasil",
+            "latitude": "-19.04200",
+            "longitude": "-43.41770",
+            "cep": "31310240",
+            "regiao": "MG",
+            "endereco1": "Rua Conceicao do Mato Dentro",
+            "endereco2": "245 SolarView"
+          },
+          "nomeUnidade": "UFV ROMUALDO",
+          "status": "Sem comunicação",
+          "periodoStatus": "7 dias",
+          "fotoUnidade": "https://image.flaticon.com/icons/png/512/25/25076.png",
+          "nomeIntegrador": "Energia Solar Construnorte",
+          "nomeProprietario": "Loteamento Residêncial"
+        }
+      ],
+      [
+        {
+          "configuracaoUnidade": {
+            "instalacao": "2018-12-23 00:00:00",
+            "kwp": "23.560"
+          },
+          "descricao": "Usina SolarView",
+          "unidadeId": "102",
+          "localizacao": {
+            "cidade": "Belo Horizonte",
+            "pais": "Brasil",
+            "latitude": "-19.04200",
+            "longitude": "-43.41770",
+            "cep": "31310240",
+            "regiao": "MG",
+            "endereco1": "Rua Conceicao do Mato Dentro",
+            "endereco2": "245 SolarView"
+          },
+          "nomeUnidade": "UFV DROGARIA ATUAL",
+          "status": "Offline",
+          "periodoStatus": "7 dias",
+          "fotoUnidade": "https://image.flaticon.com/icons/png/512/25/25076.png",
+          "nomeIntegrador": "Energia Solar Construnorte",
+          "nomeProprietario": "Loteamento Residêncial"
+        }
+      ],
+      [
+        {
+          "configuracaoUnidade": {
+            "instalacao": "2019-06-20 00:00:00",
+            "kwp": "26.560"
+          },
+          "descricao": "Usina SolarView",
+          "unidadeId": "103",
+          "localizacao": {
+            "cidade": "Belo Horizonte",
+            "pais": "Brasil",
+            "latitude": "-19.04200",
+            "longitude": "-43.41770",
+            "cep": "31310240",
+            "regiao": "MG",
+            "endereco1": "Rua Conceicao do Mato Dentro",
+            "endereco2": "245 SolarView"
+          },
+          "nomeUnidade": "UFV ADILSON PAIVA",
+          "status": "Sem produção",
+          "periodoStatus": "2 horas",
+          "fotoUnidade": "https://image.flaticon.com/icons/png/512/25/25076.png",
+          "nomeIntegrador": "Energia Solar Construnorte",
+          "nomeProprietario": "Loteamento Residêncial"
+        }
+      ],
+      [
+        {
+          "configuracaoUnidade": {
+            "instalacao": "2019-01-12 00:00:00",
+            "kwp": "26.560"
+          },
+          "descricao": "Usina SolarView",
+          "unidadeId": "104",
+          "localizacao": {
+            "cidade": "Belo Horizonte",
+            "pais": "Brasil",
+            "latitude": "-19.04200",
+            "longitude": "-43.41770",
+            "cep": "31310240",
+            "regiao": "MG",
+            "endereco1": "Rua Conceicao do Mato Dentro",
+            "endereco2": "245 SolarView"
+          },
+          "nomeUnidade": "Sun Life Solar - Unidade Jefferson Miranda",
+          "status": "Não monitorada",
+          "periodoStatus": "7 dias",
+          "fotoUnidade": "https://image.flaticon.com/icons/png/512/25/25076.png",
+          "nomeIntegrador": "Energia Solar Construnorte",
+          "nomeProprietario": "Loteamento Residêncial"
+        }
+      ],
+      [
+        {
+          "configuracaoUnidade": {
+            "instalacao": "2019-12-23 00:00:00",
+            "kwp": "26.560"
+          },
+          "descricao": "Usina SolarView",
+          "unidadeId": "105",
+          "localizacao": {
+            "cidade": "Belo Horizonte",
+            "pais": "Brasil",
+            "latitude": "-19.04200",
+            "longitude": "-43.41770",
+            "cep": "31310240",
+            "regiao": "MG",
+            "endereco1": "Rua Conceicao do Mato Dentro",
+            "endereco2": "245 SolarView"
+          },
+          "nomeUnidade": "Ande Materiais Elétricos",
+          "status": "Operação normal",
+          "periodoStatus": "3 dias",
+          "fotoUnidade": "https://image.flaticon.com/icons/png/512/25/25076.png",
+          "nomeIntegrador": "Energia Solar Construnorte",
+          "nomeProprietario": "Loteamento Residêncial"
+        }
+      ],
+      [
+        {
+          "configuracaoUnidade": {
+            "instalacao": "2019-12-26 00:00:00",
+            "kwp": "40.800"
+          },
+          "descricao": "Usina SolarView",
+          "unidadeId": "106",
+          "localizacao": {
+            "cidade": "Belo Horizonte",
+            "pais": "Brasil",
+            "latitude": "-19.04200",
+            "longitude": "-43.41770",
+            "cep": "31310240",
+            "regiao": "MG",
+            "endereco1": "Rua Conceicao do Mato Dentro",
+            "endereco2": "245 SolarView"
+          },
+          "nomeUnidade": "UFV CENTRO EMPRESARIAL",
+          "status": "Operação normal",
+          "periodoStatus": "7 dias",
+          "fotoUnidade": "https://image.flaticon.com/icons/png/512/25/25076.png",
+          "nomeIntegrador": "Energia Solar Construnorte",
+          "nomeProprietario": "Loteamento Residêncial"
+        }
+      ],
+      [
+        {
+          "configuracaoUnidade": {
+            "instalacao": "2019-12-23 00:00:00",
+            "kwp": "26.530"
+          },
+          "descricao": "Usina SolarView",
+          "unidadeId": "107",
+          "localizacao": {
+            "cidade": "Belo Horizonte",
+            "pais": "Brasil",
+            "latitude": "-19.04200",
+            "longitude": "-43.41770",
+            "cep": "31310240",
+            "regiao": "MG",
+            "endereco1": "Rua Conceicao do Mato Dentro",
+            "endereco2": "245 SolarView"
+          },
+          "nomeUnidade": "UFV ROMUALDO",
+          "status": "Sem comunicação",
+          "periodoStatus": "7 dias",
+          "fotoUnidade": "https://image.flaticon.com/icons/png/512/25/25076.png",
+          "nomeIntegrador": "Energia Solar Construnorte",
+          "nomeProprietario": "Loteamento Residêncial"
+        }
+      ],
+      [
+        {
+          "configuracaoUnidade": {
+            "instalacao": "2019-11-23 00:00:00",
+            "kwp": "23.56"
+          },
+          "descricao": "Usina SolarView",
+          "unidadeId": "108",
+          "localizacao": {
+            "cidade": "Belo Horizonte",
+            "pais": "Brasil",
+            "latitude": "-19.04200",
+            "longitude": "-43.41770",
+            "cep": "31310240",
+            "regiao": "MG",
+            "endereco1": "Rua Conceicao do Mato Dentro",
+            "endereco2": "245 SolarView"
+          },
+          "nomeUnidade": "UFV DROGARIA ATUAL",
+          "status": "Offline",
+          "periodoStatus": "7 dias",
+          "fotoUnidade": "https://image.flaticon.com/icons/png/512/25/25076.png",
+          "nomeIntegrador": "Energia Solar Construnorte",
+          "nomeProprietario": "Loteamento Residêncial"
+        }
+      ],
+      [
+        {
+          "configuracaoUnidade": {
+            "instalacao": "2019-02-29 00:00:00",
+            "kwp": "23.56"
+          },
+          "descricao": "Usina SolarView",
+          "unidadeId": "109",
+          "localizacao": {
+            "cidade": "Belo Horizonte",
+            "pais": "Brasil",
+            "latitude": "-19.04200",
+            "longitude": "-43.41770",
+            "cep": "31310240",
+            "regiao": "MG",
+            "endereco1": "Rua Conceicao do Mato Dentro",
+            "endereco2": "245 SolarView"
+          },
+          "nomeUnidade": "UFV ADILSON PAIVA",
+          "status": "Sem produção",
+          "periodoStatus": "2 horas",
+          "fotoUnidade": "https://image.flaticon.com/icons/png/512/25/25076.png",
+          "nomeIntegrador": "Energia Solar Construnorte",
+          "nomeProprietario": "Loteamento Residêncial"
         }
       ]
-    },
-    {
-      "id": 3,
-      "descricao": "Execução",
-      "status": "sem-acesso",
-      "atual": false,
-      "microetapas": []
-    },
-    {
-      "id": 4,
-      "descricao": "Avaliação",
-      "status": "sem-acesso",
-      "atual": false,
-      "microetapas": []
-    },
-    {
-      "id": 5,
-      "descricao": "Encerrada",
-      "status": "sem-acesso",
-      "atual": false,
-      "microetapas": []
-    }
-  ],
-  "bancos": [
-    {
-      "value": "001",
-      "label": "Banco do Brasil S.A."
-    },
-    {
-      "value": "003",
-      "label": "Banco da Amazônia S.A."
-    },
-    {
-      "value": "004",
-      "label": "Banco do Nordeste do Brasil S.A."
-    },
-    {
-      "value": "007",
-      "label": "Banco Nacional de Desenvolvimento Econômico e Social BNDES"
-    }
-  ],
-  "chamada": {
-    "informacoes_gerais": {
-      "nome_chamada": "Triplice Helice",
-      "modalidade_fomento": 2,
-      "linha_fomento": 4,
-      "unidade_responsavel": 1,
-      "programa": 13,
-      "instrumento_entrada": 0
-    },
-    "objetivo_geral": [
-      {
-        "id": 1,
-        "objetivo": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis,"
-      },
-      {
-        "id": 2,
-        "objetivo": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis,"
-      },
-      {
-        "id": 3,
-        "objetivo": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis,"
-      },
-      {
-        "id": 4,
-        "objetivo": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis,"
-      },
-      {
-        "id": 5,
-        "objetivo": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis,"
-      },
-      {
-        "id": 6,
-        "objetivo": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis,"
-      },
-      {
-        "id": 7,
-        "objetivo": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis,"
-      },
-      {
-        "id": 8,
-        "objetivo": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis,"
-      },
-      {
-        "id": 9,
-        "objetivo": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis,"
-      },
-      {
-        "id": 10,
-        "objetivo": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis,"
-      },
-      {
-        "id": 11,
-        "objetivo": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis,"
-      },
-      {
-        "id": 12,
-        "objetivo": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis,"
-      },
-      {
-        "id": 13,
-        "objetivo": "The call of mountais "
-      },
-      {
-        "id": 14,
-        "objetivo": "Bitcoin é top"
-      },
-      {
-        "id": 15,
-        "objetivo": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis,"
-      }
-    ],
-    "justificativa": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis.",
-    "origem_recurso": {
-      "fapemig": "30,80",
-      "num_convenio": "18852",
-      "parceiros": [
-        {
-          "nome": "Fundep",
-          "recurso": "26600,80"
-        },
-        {
-          "nome": "Ultramig",
-          "recurso": "8000,80"
-        },
-        {
-          "nome": "CNPq",
-          "recurso": "380000,80"
-        }
-      ]
-    },
-    "metas": [
-      {
-        "titulo": "Patentes de produtos geradas",
-        "descricao": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis."
-      },
-      {
-        "titulo": "Número de submissões desesejadas",
-        "descricao": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis."
-      },
-      {
-        "titulo": "Dissertações e teses geradas",
-        "descricao": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis."
-      },
-      {
-        "titulo": "Número de submissões desesejadas",
-        "descricao": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis."
-      },
-      {
-        "titulo": "Dissertações e teses geradas",
-        "descricao": "Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis."
-      }
     ]
-  },
-  "opcoes": {
-    "informacoes_gerais": {
-      "modalidade_fomento": [
-        {
-          "id": 1,
-          "descricao": "Auxílio"
-        },
-        {
-          "id": 2,
-          "descricao": "Bolsa"
-        },
-        {
-          "id": 3,
-          "descricao": "Subvenção Econômica"
-        }
-      ],
-      "linha_fomento": [
-        {
-          "id": 1,
-          "descricao": "Pesquisa"
-        },
-        {
-          "id": 2,
-          "descricao": "Formação de RH"
-        },
-        {
-          "id": 3,
-          "descricao": "Inovação Tecnológica"
-        },
-        {
-          "id": 4,
-          "descricao": "Divulgação Científica"
-        }
-      ],
-      "unidade_responsavel": [
-        {
-          "id": 1,
-          "sigla": "DTIC",
-          "descricao": "Departamento de Tecnologia, Informação e Comunicação"
-        },
-        {
-          "id": 2,
-          "sigla": "DCC",
-          "descricao": "Departamento de Compras e Contratos"
-        },
-        {
-          "id": 3,
-          "sigla": "DOF",
-          "descricao": "Departamento de Operações de Fomento"
-        }
-      ],
-      "programa": [
-        {
-          "id": 1,
-          "descricao": "Demanda Universal (Projetos de Pesquisa Científica e Tecnológica)"
-        },
-        {
-          "id": 2,
-          "descricao": "Programa Pesquisador Mineiro - PPM"
-        },
-        {
-          "id": 3,
-          "descricao": "Programa de Apoio a Grupos Emergentes de Pesquisa - Pronem"
-        },
-        {
-          "id": 4,
-          "descricao": "Programa de Apoio aos Núcleos de Excelência - Pronex "
-        },
-        {
-          "id": 5,
-          "descricao": "Institutos Nacionais de Ciência e Tecnologia - INCTS"
-        },
-        {
-          "id": 6,
-          "descricao": "Programa Primeiros Projetos - PPP"
-        },
-        {
-          "id": 7,
-          "descricao": "Redes de Pesquisa"
-        },
-        {
-          "id": 8,
-          "descricao": "Apoio ao Mestrado Profissional"
-        },
-        {
-          "id": 9,
-          "descricao": "Programa de Incentivo ao Pesquisador Público Estadual (Bolsa de Incentivo à Pesquisa e ao Desenvolvimento Tecnológico – BIPDT)"
-        },
-        {
-          "id": 10,
-          "descricao": "Programa de Apoio à Pós-Graduação - PAPG"
-        },
-        {
-          "id": 11,
-          "descricao": "Programa Bolsa A Iniciação Científica e Tecnológica Institucional - PBIC"
-        },
-        {
-          "id": 12,
-          "descricao": "Programa de Capacitação de Recursos Humanos - PCRH"
-        },
-        {
-          "id": 13,
-          "descricao": "Pro-Inovação"
-        },
-        {
-          "id": 14,
-          "descricao": "Programa de Apoio a Empresas em Parques Tecnológicos - PROPTEC"
-        },
-        {
-          "id": 15,
-          "descricao": "Organização de Eventos de Caráter Científico e Tecnológico"
-        },
-        {
-          "id": 16,
-          "descricao": "Programa de Apoio a Publicações Científicas e Tecnológicas"
-        },
-        {
-          "id": 17,
-          "descricao": "Participação em Atividades com Instituições de Cooperação Intern"
-        },
-        {
-          "id": 18,
-          "descricao": "Programa de Comunicação Científica e Tecnológica - PCCT"
-        },
-        {
-          "id": 19,
-          "descricao": "Participação Coletiva em Eventos de Caráter Científico e Tecnológico"
-        }
-      ],
-      "instrumento_entrada": [
-        {
-          "id": 1,
-          "descricao": "Instrumento 1"
-        },
-        {
-          "id": 2,
-          "descricao": "Instrumento 2"
-        },
-        {
-          "id": 3,
-          "descricao": "Instrumento 3"
-        }
-      ]
-    }
   }
-}
+
