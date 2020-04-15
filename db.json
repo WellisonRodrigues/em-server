@@ -1,11 +1,11 @@
  {
-    "visaoGeral": {
+    "visaoGeral": [{
       "UnidadesInstaladas": 86,
       "potenciaoTotalInstalada": 530,
       "potenciaInstantanea": 43.63,
       "energiaTotal": 561750,
       "arvoresCultivadas": 310
-    },
+    }],
     "portfolio": [
       [
         {
